@@ -31,11 +31,11 @@ static FORTrackGesture* _instance = nil;
 @synthesize activeTouches;
 
 + (FORTrackGesture*)sharedInstace {
-    if(!_instance){
-        _instance = [[[FORTrackGesture class] alloc] init];
-        _instance.delegate = _instance;
-    }
-    return _instance;
+//    if(!_instance){
+         FORTrackGesture *instance = [[[FORTrackGesture class] alloc] init];
+        instance.delegate = instance;
+//    }
+    return instance;
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {

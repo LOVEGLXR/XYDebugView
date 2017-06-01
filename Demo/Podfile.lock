@@ -1,12 +1,12 @@
 PODS:
-  - FORGestureTrackDisplay (0.0.1)
+  - FORGestureTrackDisplay (0.1.0)
 
 DEPENDENCIES:
   - FORGestureTrackDisplay
 
 SPEC CHECKSUMS:
-  FORGestureTrackDisplay: 5a484572165306fd480aa328e34b772b1ca6323b
+  FORGestureTrackDisplay: a0c14d65cbe49ee54dbc1ca15cfd14d905e0cf79
 
 PODFILE CHECKSUM: 56997562611210cf5781fb43e61119c2705a8157
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.1
